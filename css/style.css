@@ -141,7 +141,7 @@ header .container nav ul a:hover {
 .landing {
   padding-top: var(--main-padding-top);
   padding-bottom: var(--main-padding-bottom);
-  height: calc(132vh - 49px)
+  height: calc(153vh - 49px)
 }
 .landing .container {
   display: flex;
