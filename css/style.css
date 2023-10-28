@@ -62,6 +62,11 @@ header {
   z-index: 100;
   background-color: #20232f;
 }
+@media (max-width:768px) {
+  header {
+    width: 425px;
+  }
+}
 header .container {
   display: flex;
   justify-content: space-between;
@@ -141,7 +146,6 @@ header .container nav ul a:hover {
 .landing {
   padding-top: var(--main-padding-top);
   padding-bottom: var(--main-padding-bottom);
-  height: calc(153vh - 49px)
 }
 .landing .container {
   display: flex;
@@ -292,8 +296,7 @@ header .container nav ul a:hover {
 .about{
   padding-top: var(--main-padding-top);
  padding-bottom: var(--main-padding-bottom);
-  height: 100vh;
-  background-color: var(--color-section);
+ background-color: var(--color-section);
 }
 @media(max-width:992px){
   .about{
@@ -303,6 +306,7 @@ header .container nav ul a:hover {
 @media(max-width:768px){
   .about{
     margin-top: 70px;
+    width: fit-content;
   }
 }
 .about .container{
@@ -415,8 +419,7 @@ color: var(--main-coolor);
   gap: 40px;
 }
 .services .our-box .box{
-  /*border: 2px solid var(--main-coolor);
-  */text-align: center;
+  text-align: center;
   padding: 30px;
   background-color: var(--color-section);
   border-radius: 10px;
